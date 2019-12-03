@@ -1,6 +1,6 @@
 How to strip a larger font file for embedded systems
 ====================================================
-The Google OTF font files are the best resouces for adding support
+The Google OTF font files are the best resources for adding support
 for languages like Chinese, Japanese and Korean. However, the size
 of single OTF file could well exceed 10MB, making it unsuitable for
 resource constrained embedded applications. Therefore, follow the below
