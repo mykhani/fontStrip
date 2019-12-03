@@ -24,10 +24,10 @@ $ pip install fonttools
 
 4. Dump the ASCII codes of the text resources file using the below command.
 ```
-$ uni2ascii -a P -p text-resource-file > text-resource-file-in-unicode
+$ uni2ascii -a P -p text-resource-file > text-resource-file-ascii-dump
 ```
 
-5. Finally generate the stripped font file using the base font file and the unicode-converted text resource file.
+5. Finally generate the stripped font file using the base font file and the ASCII dump of the resource file.
 ```
-$ pyftsubset base.otf --output-file=stripped.otf --unicodes-file=text-resource-file-in-unicode
+$ pyftsubset base.otf --output-file=stripped.otf --unicodes-file=text-resource-file-ascii-dump
 ```
