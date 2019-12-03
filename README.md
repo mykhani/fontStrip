@@ -22,7 +22,7 @@ $ pip install fonttools
 
 3. Gather the application text resources file.
 
-4. Convert the text resources files into ascii using the below command.
+4. Dump the ASCII codes of the text resources file using the below command.
 ```
 $ uni2ascii -a P -p text-resource-file > text-resource-file-in-unicode
 ```
